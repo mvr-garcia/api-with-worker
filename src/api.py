@@ -4,8 +4,8 @@ from typing import Literal, Optional
 from fastapi import APIRouter, FastAPI, Query
 from redbird.oper import between, greater_equal, in_
 
-from src.scheduler import app as app_rocketry
-from src.models import Log, Task
+from scheduler import app as app_rocketry
+from models import Log, Task
 
 app = FastAPI(
     title="Rocketry with FastAPI",

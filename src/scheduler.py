@@ -1,7 +1,3 @@
-"""
-This file contains Rocketry app.
-Add your tasks here, conditions etc. here.
-"""
 import asyncio
 
 from rocketry import Rocketry
